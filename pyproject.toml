@@ -8,11 +8,15 @@ version = "0.1.0"
 description = "Save and load matplotlib figures by serializing all figure data"
 readme = "README.md"
 requires-python = ">=3.8"
-license = {text = "MIT"}
-authors = [
-    {name = "Christian Döring", email = "christian.doering@tum.de"}
+license = { text = "MIT" }
+authors = [{ name = "Christian Döring", email = "christian.doering@tum.de" }]
+keywords = [
+    "matplotlib",
+    "plotting",
+    "serialization",
+    "figures",
+    "visualization",
 ]
-keywords = ["matplotlib", "plotting", "serialization", "figures", "visualization"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
@@ -27,11 +31,7 @@ classifiers = [
     "Programming Language :: Python :: 3.13",
     "Topic :: Scientific/Engineering :: Visualization",
 ]
-dependencies = [
-    "matplotlib>=3.7.0",
-    "numpy>=1.24.0",
-    "pillow>=10.0.0",
-]
+dependencies = ["matplotlib>=3.7.0", "numpy>=1.24.0", "pillow>=10.0.0"]
 
 [project.urls]
 Homepage = "https://github.com/DoeringChristian/pltsave"
@@ -39,10 +39,7 @@ Repository = "https://github.com/DoeringChristian/pltsave.git"
 Issues = "https://github.com/DoeringChristian/pltsave/issues"
 
 [project.optional-dependencies]
-dev = [
-    "pytest>=7.4.0",
-    "pytest-cov>=4.1.0",
-]
+dev = ["pytest>=7.4.0", "pytest-cov>=4.1.0"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
