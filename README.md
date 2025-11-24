@@ -21,12 +21,22 @@ A comprehensive matplotlib figure serialization library that allows you to save 
 
 ## Installation
 
-```bash
-# Install dependencies
-pip install matplotlib numpy pillow
+### From GitHub
 
-# For development and testing
-pip install pytest pytest-cov
+Install directly from the GitHub repository:
+
+```bash
+pip install git+https://github.com/DoeringChristian/pltsave.git
+```
+
+### For Development
+
+Clone the repository and install in editable mode:
+
+```bash
+git clone https://github.com/DoeringChristian/pltsave.git
+cd pltsave
+pip install -e ".[dev]"
 ```
 
 ## Quick Start
