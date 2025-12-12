@@ -36,6 +36,7 @@ Issues = "https://github.com/DoeringChristian/pltsave/issues"
 
 [project.optional-dependencies]
 dev = ["pytest>=7.4.0", "pytest-cov>=4.1.0"]
+viewer = ["PyQt6>=6.0.0"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
